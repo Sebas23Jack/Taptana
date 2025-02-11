@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taptana Digital - Operaciones</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: none;
+        }
+
+        .intro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            max-width: 600px;
+            margin: 50px auto;
+            flex-direction: row;
+        }
+
+        .intro img {
+            max-width: 80px;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+
+        .intro-content {
+            flex: 1;
+        }
+
+        .intro button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+
+        .intro button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="intro" id="intro">
+        <div class="intro-content">
+            <h2>Bienvenido a la Taptana Digital</h2>
+            <br>
+            <p>La Taptana es una herramienta ancestral utilizada por la comunidad Salasaka para realizar cálculos matemáticos. Este aplicativo digital busca preservar y enseñar su uso.</p>
+            <button onclick="window.location.href='Taptana.html'">Iniciar</button>
+        </div>
+        <img src="https://pbs.twimg.com/profile_images/519881913989750785/6xB6NdwW_400x400.jpeg" alt="Cultura Salasaka">
+    </div>
+</body>
+</html>
+
